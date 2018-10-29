@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<!--
+servlet的访问路径：http://loaclhost:8080/Servlet_jsp_GH01/user
+index.html：http://loaclhost:8080/Servlet_jsp_GH01/user/index.html
+
+.../user?username=zs&pwd=123
+-->
+    <form action="/user" method="get">
+        userName:<input type="text" name="username"/><br/>
+        password:<input type="password" name="pwd"/><br/>
+        <input type="submit" value="登录"/>
+    </form>
+</body>
+</html>
